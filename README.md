@@ -8,6 +8,7 @@ This is a repo to use modular paradigm (sparse) LLM
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
 | --------------- | :----: | :----: | :----: |
 | [Whoever Started the Interference Should End It: Guiding Data-Free Model Merging via Task Vectors](https://arxiv.org/pdf/2503.08099#page=17.22) | 2025 | ICML | [code](https://github.com/nathanielyvo/WUDI-Merging)|
+| [Multi-Task Model Merging via Adaptive Weight Disentanglement](https://arxiv.org/pdf/2411.18729) | 2025 | Arxiv | [code](no run)|
 
 
 
