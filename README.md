@@ -9,6 +9,7 @@ LoRA have been proved its effectiveness in parameter-efficient finetuning. Howev
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
 | --------------- | :----: | :----: | :----: |
 | [Latent Space Factorization in LoRA](https://arxiv.org/pdf/2510.19640#page=1.01) | 2025 | NeurIPS | [code](no run)|
+| [DoRA: Weight-Decomposed Low-Rank Adaptation](https://openreview.net/pdf?id=3d5CIRG1n2) | 2024 | ICML | [code](no run)|
 
 ## Model Merging
 
