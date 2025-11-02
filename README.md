@@ -5,7 +5,10 @@ This is a repo to use modular paradigm (sparse) LLM
 
 ## Module
 
-
+LoRA have been proved its effectiveness in parameter-efficient finetuning. However, LoRA can not explicitly disambiguate the task-relvant information within the learned low-rank subspace.  FVAE-LoRA propose a FVAE LoRA to factorize the latent space into the $z_1$ and $z_2$ and then use $z_1$ to control the task-relvant information and $z_2$ to control residual information.
+| **Paper Title** | **Year** | **Conference/Journal** | **Code** |
+| --------------- | :----: | :----: | :----: |
+| [Latent Space Factorization in LoRA](https://arxiv.org/pdf/2510.19640#page=1.01) | 2025 | NeurIPS | [code](no run)|
 
 ## Model Merging
 
@@ -19,9 +22,14 @@ Model merging have proved to be a powerful way to combine multiple models into a
 ## Mixture of Experts
 
 ### Mixture of LoRA adapters. 
+
+Fundational model needs to integrate multiple capabilities to handle complex downstream tasks. One simple methods  is to conduct contuning training on the downstream tasks. However, retraining on multi-domain corpus is expensive, particularly when the specialized models are available. Model merging is can be a more efficient way to Combine LoRA adapters on different domains. But Model merging will introduce the task interference. 
+
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
 | --------------- | :----: | :----: | :----: |
 | [FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts](https://arxiv.org/pdf/2510.08396#page=3.03) | 2025 | NeurIPS | [code](https://github.com/gfyddha/FlyLoRA)|
+| [ThanoRA: Task Heterogeneity-Aware Multi-Task Low-Rank Adaptation](https://arxiv.org/abs/2505.18640) | 2025 | Arxiv | [code](https://github.com/LiangJian24/ThanoRA)|
+| [LoRA-Mixer: Coordinate Modular LoRA Experts Through Serial Attention Routing](https://arxiv.org/abs/2507.00029) | 2025 | Arxiv | [code](no run)|
 
 
 ## LLM Selection. 
