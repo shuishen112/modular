@@ -19,6 +19,7 @@ Model merging have proved to be a powerful way to combine multiple models into a
 | --------------- | :----: | :----: | :----: |
 | [Whoever Started the Interference Should End It: Guiding Data-Free Model Merging via Task Vectors](https://arxiv.org/pdf/2503.08099#page=17.22) | 2025 | ICML | [code](https://github.com/nathanielyvo/WUDI-Merging)|
 | [Multi-Task Model Merging via Adaptive Weight Disentanglement](https://arxiv.org/pdf/2411.18729) | 2025 | Arxiv | [code](no run)|
+| [Model Unmerging: Making Your Models Unmergeable for Secure Model Sharing](https://arxiv.org/abs/2509.01548) | 2025 | NeurIPS | [code](no run)|
 
 
 ### sparse merging
