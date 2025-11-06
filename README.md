@@ -20,6 +20,13 @@ Model merging have proved to be a powerful way to combine multiple models into a
 | [Whoever Started the Interference Should End It: Guiding Data-Free Model Merging via Task Vectors](https://arxiv.org/pdf/2503.08099#page=17.22) | 2025 | ICML | [code](https://github.com/nathanielyvo/WUDI-Merging)|
 | [Multi-Task Model Merging via Adaptive Weight Disentanglement](https://arxiv.org/pdf/2411.18729) | 2025 | Arxiv | [code](no run)|
 
+
+### sparse merging
+| **Paper Title** | **Year** | **Conference/Journal** | **Code** |
+| --------------- | :----: | :----: | :----: |
+| [LoRS: Efficient Low-Rank Adaptation for Sparse Large Language Model](https://arxiv.org/pdf/2501.085821) | 2025 | Arxiv | [code](no run)|
+| [Exploring Sparse Adapters for Scalable Merging of Parameter Efficient Experts](https://arxiv.org/pdf/2507.07140) | 2025 | COLM | [code](no run)|
+
 ## Mixture of Experts
 
 ### Mixture of LoRA adapters. 
