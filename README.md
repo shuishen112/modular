@@ -21,6 +21,12 @@ Model merging have proved to be a powerful way to combine multiple models into a
 | [Multi-Task Model Merging via Adaptive Weight Disentanglement](https://arxiv.org/pdf/2411.18729) | 2025 | Arxiv | [code](no run)|
 | [Model Unmerging: Making Your Models Unmergeable for Secure Model Sharing](https://arxiv.org/abs/2509.01548) | 2025 | NeurIPS | [code](no run)|
 
+### survey
+
+| **Paper Title** | **Year** | **Conference/Journal** | **Code** |
+| --------------- | :----: | :----: | :----: |
+| [A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning](https://arxiv.org/pdf/2408.07057) | 2024 | TMLR | |
+
 
 ### sparse merging
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
@@ -49,3 +55,4 @@ Fundational model needs to integrate multiple capabilities to handle complex dow
 | [RouterBench: A Benchmark for Multi-LLM Routing System](https://openreview.net/forum?id=IVXmV8Uxwh) | 2024 |  | |
 | [Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing](https://arxiv.org/abs/2404.14618) | 2024 | ICLR | | 
 | [BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](https://arxiv.org/abs/2506.22716) | 2025 | ICML | |
+
