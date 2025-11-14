@@ -21,6 +21,7 @@ Model merging have proved to be a powerful way to combine multiple models into a
 | [Multi-Task Model Merging via Adaptive Weight Disentanglement](https://arxiv.org/pdf/2411.18729) | 2025 | Arxiv | [code](no run)|
 | [Model Unmerging: Making Your Models Unmergeable for Secure Model Sharing](https://arxiv.org/abs/2509.01548) | 2025 | NeurIPS | [code](no run)|
 | [Twin-Merging: Dynamic Integration of Modular Expertise in Model Merging](https://arxiv.org/pdf/2406.15479) | 2024 | NeurIPS | [code](no run)|
+| [OptMerge: UNIFYING MULTIMODAL LLM CAPABILI-TIES AND MODALITIES VIA MODEL MERGING](https://openreview.net/pdf?id=Me0n0iESJY) | 2025 | Arxiv | [code](no run)|
 
 ### survey
 
