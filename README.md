@@ -13,7 +13,7 @@ LoRA have been proved its effectiveness in parameter-efficient finetuning. Howev
 
 ## Model Merging
 
-Model merging have proved to be a powerful way to combine multiple models into a single model, offering benefits such as reduced storage and serving cost. However, the merging approach always introduce interference between the models, which is not desirable. To reduce the interference of model merging, there are a rich body of work have been proposed to guide the merging process. Some research work have explored model merging without additional data for retraining or test-time computation. Wudi merging have demonstrated that the task vector of the linear layer consititute an approximate linear subspace for its corresponding input and then proce a wudi-mergin ((Whoever started the interference shoUld enD It)), a simple yet effective approach that can eliminate interference without addition dataset. AWD merging
+Model merging has emerged as a powerful technique that aims to integrate the weights of multiple task-specific models into a single multi-task model without extra training, offering benefits such as reduced storage and serving cost. However, the merging approach always introduce interference between the models, which is not desirable. To reduce the interference of model merging, there are a rich body of work have been proposed to guide the merging process. Some research work have explored model merging without additional data for retraining or test-time computation. Wudi merging have demonstrated that the task vector of the linear layer consititute an approximate linear subspace for its corresponding input and then proce a wudi-merging ((Whoever started the interference shoUld enD It)), a simple yet effective approach that can eliminate interference without addition dataset. Knots (knowledge orientation through SVD), builds upon SVD to transform the task-updates of different LoRA adapters into a shared space, where merging methods can be applied. 
 
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
 | --------------- | :----: | :----: | :----: |
@@ -22,6 +22,7 @@ Model merging have proved to be a powerful way to combine multiple models into a
 | [Model Unmerging: Making Your Models Unmergeable for Secure Model Sharing](https://arxiv.org/abs/2509.01548) | 2025 | NeurIPS | [code](no run)|
 | [Twin-Merging: Dynamic Integration of Modular Expertise in Model Merging](https://arxiv.org/pdf/2406.15479) | 2024 | NeurIPS | [code](no run)|
 | [OptMerge: UNIFYING MULTIMODAL LLM CAPABILI-TIES AND MODALITIES VIA MODEL MERGING](https://openreview.net/pdf?id=Me0n0iESJY) | 2025 | Arxiv | [code](no run)|
+
 
 ### survey
 
@@ -40,13 +41,18 @@ Model merging have proved to be a powerful way to combine multiple models into a
 
 ### Mixture of LoRA adapters. 
 
-Fundational model needs to integrate multiple capabilities to handle complex downstream tasks. One simple methods  is to conduct contuning training on the downstream tasks. However, retraining on multi-domain corpus is expensive, particularly when the specialized models are available. Model merging is can be a more efficient way to Combine LoRA adapters on different domains. But Model merging will introduce the task interference. 
+Fundational model needs to integrate multiple capabilities to handle complex downstream tasks. One simple method is to conduct contuning training on the downstream tasks. However, retraining on multi-domain corpus is expensive, particularly when the specialized models are available. 
+
+To reduce the computational cost and memory resource reqiured by the full-finetuing, parameter efficient finetuning (PEFT) has emerged. Among these approaches, LoRA adapters have been proved comparable to full-fintuning while demanding less compuatation. Despite these improvement, LoRA-based methods face challenges in multi-task scenarios due to the limited training parameters and the catastrophic forgetting problems, which degrade the performance in the cross-task generalization. For instance, adapterfusion and LoRAhub introduce task-specifc LoRA modules or experts, combining knowledge into domain experts through additional attention fusion and element-wise composition. However, these additional components often add complexity to the training process, limitig their applicability compared to the simpler PEFT methods. 
+
+A promising solution is to design an architecture that combine LoRA's resource-saving features with the versatility of MoE models. 
 
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
 | --------------- | :----: | :----: | :----: |
 | [FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts](https://arxiv.org/pdf/2510.08396#page=3.03) | 2025 | NeurIPS | [code](https://github.com/gfyddha/FlyLoRA)|
 | [ThanoRA: Task Heterogeneity-Aware Multi-Task Low-Rank Adaptation](https://arxiv.org/abs/2505.18640) | 2025 | Arxiv | [code](https://github.com/LiangJian24/ThanoRA)|
 | [LoRA-Mixer: Coordinate Modular LoRA Experts Through Serial Attention Routing](https://arxiv.org/abs/2507.00029) | 2025 | Arxiv | [code](no run)|
+| [MIXLORA: Enhancing Large Language Models Fine-Tuning with LoRA-based Mixture of Experts](https://arxiv.org/pdf/2404.15159) | 2024 | Arxiv | [code](no run)|
 
 
 ## LLM Selection. 
