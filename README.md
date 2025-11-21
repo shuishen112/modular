@@ -13,7 +13,7 @@ LoRA have been proved its effectiveness in parameter-efficient finetuning. Howev
 
 ## Model Merging
 
-Model merging has emerged as a powerful technique that aims to integrate the weights of multiple task-specific models into a single multi-task model without extra training, offering benefits such as reduced storage and serving cost. However, the merging approach always introduce interference between the models, which is not desirable. To reduce the interference of model merging, there are a rich body of work have been proposed to guide the merging process. Some research work have explored model merging without additional data for retraining or test-time computation. Wudi merging have demonstrated that the task vector of the linear layer consititute an approximate linear subspace for its corresponding input and then proce a wudi-merging ((Whoever started the interference shoUld enD It)), a simple yet effective approach that can eliminate interference without addition dataset. Knots (knowledge orientation through SVD), builds upon SVD to transform the task-updates of different LoRA adapters into a shared space, where merging methods can be applied. 
+Model merging has emerged as a powerful technique that aims to integrate the weights of multiple task-specific models into a single multi-task model without extra training, offering benefits such as reduced storage and serving cost. However, the merging approach always introduce interference between the models, which is not desirable. To reduce the interference of model merging, there are a rich body of work have been proposed to guide the merging process. Some research work have explored model merging without additional data for retraining or test-time computation. Wudi merging have demonstrated that the task vector of the linear layer consititute an approximate linear subspace for its corresponding input and then proce a wudi-merging ((Whoever started the interference shoUld enD It)), a simple yet effective approach that can eliminate interference without addition dataset. Knots (knowledge orientation through SVD), builds upon SVD to transform the task-updates of different LoRA adapters into a shared space, where merging methods can be applied. Close-form merging study the model merging methods based on Regmerge for federated continual learning. 
 
 | **Paper Title** | **Year** | **Conference/Journal** | **Code** |
 | --------------- | :----: | :----: | :----: |
@@ -22,7 +22,8 @@ Model merging has emerged as a powerful technique that aims to integrate the wei
 | [Model Unmerging: Making Your Models Unmergeable for Secure Model Sharing](https://arxiv.org/abs/2509.01548) | 2025 | NeurIPS | [code](no run)|
 | [Twin-Merging: Dynamic Integration of Modular Expertise in Model Merging](https://arxiv.org/pdf/2406.15479) | 2024 | NeurIPS | [code](no run)|
 | [OptMerge: UNIFYING MULTIMODAL LLM CAPABILI-TIES AND MODALITIES VIA MODEL MERGING](https://openreview.net/pdf?id=Me0n0iESJY) | 2025 | Arxiv | [code](no run)|
-
+| [WHAT MATTERS FOR MODEL MERGING AT SCALE?](https://openreview.net/forum?id=9sbetmvNpW) | 2024 | TMLR | [code](no run)|
+| [CLOSED-FORM MERGING OF PARAMETER-EFFICIENTMODULES FOR FEDERATED CONTINUAL LEARNIN](https://arxiv.org/pdf/2410.17961) | 2025 | ICLR | [code](no run)|
 
 ### survey
 
