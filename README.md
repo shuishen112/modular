@@ -24,8 +24,8 @@ Model merging has emerged as a powerful technique that aims to integrate the wei
 | [OptMerge: UNIFYING MULTIMODAL LLM CAPABILI-TIES AND MODALITIES VIA MODEL MERGING](https://openreview.net/pdf?id=Me0n0iESJY) | 2025 | Arxiv | [code](no run)|
 | [WHAT MATTERS FOR MODEL MERGING AT SCALE?](https://openreview.net/forum?id=9sbetmvNpW) | 2024 | TMLR | [code](no run)|
 | [CLOSED-FORM MERGING OF PARAMETER-EFFICIENTMODULES FOR FEDERATED CONTINUAL LEARNIN](https://arxiv.org/pdf/2410.17961) | 2025 | ICLR | [code](no run)|
-| [Merge to Learn: Efficiently Adding Skills to Language Models
-with Model Merging](https://arxiv.org/pdf/2410.12937) | 2024 | arxiv | [code](no run)|
+| [Merge to Learn: Efficiently Adding Skills to Language Modelswith Model Merging](https://arxiv.org/pdf/2410.12937) | 2024 | arxiv | [code](no run)|
+| [Modeling Multi-Task Model Merging as Adaptive Projective Gradient Descent](https://arxiv.org/pdf/2501.01230) | 2025 | ICML | [code](https://github.com/WalkerWorldPeace/DOGE)|
 
 ### survey
 
